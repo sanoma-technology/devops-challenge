@@ -17,7 +17,8 @@ database.
   directory, so that provisioning does at least the following things:
   * Creates an user called `sanoma` with the password `devops`.
   * Installs the source code using `pip`.
-  * Creates an *Mezzanine* project in the home directory of the `sanoma` user.
+  * Creates a *Mezzanine* project in the home directory of the `sanoma` user.
+    (See the quick-start at http://mezzanine.jupo.org/)
   * Overrides the `local_settings.py` file in the *Mezzanine* project with
     sensible settings.
   * Installs and configures *Apache* + *mod_wsgi* or *Ngnix* + *Gunicorn*.
